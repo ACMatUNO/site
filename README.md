@@ -8,3 +8,4 @@ The web site for ACM@UNO
 ## To run site/web-server locally
 - Run `npm start`
 - Open browser and navigate to [http://localhost:1337/](http://localhost:1337/)
+- Enjoy!
