@@ -1,5 +1,17 @@
-body {
+.top_menu a{
+   color: #0083ba;
+   font-size:14;
+   font-weight:bold;
+   padding: 15px 10px;
+}
+
+.top_menu li{
+   display:inline;
+}
+
+.jumbotron {
     text-align: center;
     color: #0083ba;
-    background-color: #010101;
+    background-color: #ffffff;
 }
+
