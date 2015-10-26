@@ -1,27 +1,21 @@
 <html>
 <head>
-	<title>ACM @ UNO</title>
+   <title>ACM @ UNO</title>
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+   <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
-	<body>
-      <div class = "top_menu">
-         <div class = "container">
-            <ul class = "pull-left">
-               <li><a href="#">About</a></li>
-            </ul>
-            <ul class = "pull-right">
-               <li><a href="/members">Current Members</a></li>
-               <li><a href="#">Become a Member</a></li>
-            </ul>
-         </div>
-      </div>
+   <body>
+      <div id="content"></div>
       <div class="jumbotron">
          <div class="container">
-		      <h1>The Association for Computing Machinery at the University of New Orleans</h1>
-		      <img src="/img/UNO.png" alt="UNO" >
+            <h1>The Association for Computing Machinery at the University of New Orleans</h1>
+            <img src="/img/UNO.png" alt="UNO" >
          </div>
       </div>
-	</body>
+      <script type="text/babel" src="js/templates.js"></script>
+   </body>
 </html>
