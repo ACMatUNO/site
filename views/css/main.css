@@ -41,7 +41,6 @@
     padding: 0px;
     font-family: "Times New Roman", Times, Serif;
     color: #ffffff;
-    background-color: #ffffff;
     margin-bottom: 0px;
 }
 
@@ -75,4 +74,26 @@
 
 .group-icon {
     font-size: 30px;
+}
+
+body .container-fluid h2 {
+    color: #04284C;
+}
+
+#acm_women {
+    padding: 10px;
+}
+
+
+.acm_women_icon {
+    font-size: 60px;
+}
+
+#footer {
+    padding-top: 20px;
+    background-color: #F0F8FF;
+}
+
+#members {
+    padding-top: 50px;
 }
