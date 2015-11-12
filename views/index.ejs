@@ -11,11 +11,72 @@
    <body>
       <div id="content"></div>
       <div class="jumbotron">
-         <div class="container">
-            <h1>The Association for Computing Machinery at the University of New Orleans</h1>
-            <img src="/img/UNO.png" alt="UNO" >
+         <video class="jumbotron-video" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="/video/acm_video_short.mp4" type="video/mp4">
+         </video>        
+         <div class="jumbotron-text">
+            <h1>ACM @ UNO</h1>
+            <p>The Association for Computing Machinery at the University of New Orleans</p>
          </div>
       </div>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-6">
+               <h2>About ACM</h2>
+               <h4>ACM UNO is the University of New Orleans branch of the Association for Computing Machinery. 
+               The purpose of the ACM is to engage students in an extracurricular environment where they will 
+               further develop their abilities in the field of computer science. Being a member of the Association 
+               of Computing Machinery takes knowledge learned in the regular curriculum and applies it to real 
+               world scenarios. The experiences in the Association of Computing Machinery will prepare students 
+               with the versatility and expertise necessary to be successful in life after college.</h4>
+               <p></p>
+            </div>
+            <div class="col-sm-6">
+               <img src="/img/UNO.png" alt="UNO" />
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid text-center" id="groups">
+         <h2>Special Interest Groups</h2>
+         <h4>Find your passion in a special interest group:</h4>
+         <div class="row">
+            <div class="col-sm-4">
+               <span class="glyphicon glyphicon-tower group-icon"></span>
+               <h3>Game Development</h3>
+               <p>Develop games, participate in local game development meetups, and compete in game jam competitions.</p>
+               <a href="https://docs.google.com/forms/d/1_JI5c2egaX9OziMWBKGwmtMEFO0RY8Ery8okWHNmEW8/viewform">
+                  <button type="button" class="btn btn-default btn-lg">Join</button>
+               </a>
+            </div>
+            <div class="col-sm-4">
+               <span class="glyphicon glyphicon-link group-icon"></span>
+               <h3>Web Development</h3>
+               <p>Learn cutting edge web technologies like Node.js and React.js. Hone your version control and teamwork skills.</p>
+               <a href="https://docs.google.com/forms/d/1zMm7PISTXbGjQobTgcbpIw1vIcZ9Ukq6feDxwFlj0qE/viewform">
+                  <button type="button" class="btn btn-default btn-lg">Join</button>
+               </a>
+            </div>
+            <div class="col-sm-4">
+               <span class="glyphicon glyphicon-wrench group-icon"></span>
+               <h3>Robotics</h3>
+               <p>Collaborate with engineers to build robots and compete in the IEEE robotics competition.</p>
+               <a href="https://docs.google.com/forms/d/1I32Gi0tkSC6uysfO0NESwMFS2L44m2ljpLmS-NbswnY/viewform">
+                  <button type="button" class="btn btn-default btn-lg">Join</button>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid text-center" id="acm_women">
+         <span class="glyphicon glyphicon-education acm_women_icon"></span>
+         <h2>ACM-Women's Chapter</h2>
+         <h4>The ACM-W offers a community for women interested in computing.  The club plans to invite local female software 
+         developers to speak on their experiences in the tech sector. We would also like to coordinate with the local WiT 
+         (Women in Technology) group.</h4>
+         <a href="https://docs.google.com/forms/d/1EmBkPYUE8OYufYL-bAXSwj_kduph9Nu86jRpTiMGVJk/viewform">
+            <button type="button" class="btn btn-primary btn-lg">Join</button>
+         </a>
+      </div>
+      <div id="footer"></div>
       <script type="text/babel" src="js/templates.js"></script>
    </body>
 </html>

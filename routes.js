@@ -10,6 +10,10 @@ router.get('/members', function (req, res){
   res.render('members');
 });
 
+router.get('/events', function (req, res){
+    res.render('events');
+});
+
 router.get('/contest', function (req, res) {
 	res.redirect(301, 'http://goo.gl/forms/V03Q04bj1G');
 });

@@ -1,17 +1,99 @@
-.top_menu a{
-   color: #0083ba;
-   font-size:14;
-   font-weight:bold;
-   padding: 15px 10px;
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
 }
 
-.top_menu li{
-   display:inline;
+.navbar .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#navigation {
+    background-color: #04284C;
+}
+
+.navbar.navbar-default {
+    border: 0px;
+    text-transform: uppercase;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    text-decoration: none;
+    color: #ffffff !important;
+}
+
+.navbar .navbar-brand {
+    padding-top: 0px;
+}
+
+.navbar-header a:hover {
+    background-color: #ffffff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    background-color: #ffffff !important;
+    color: #0083ba !important;
 }
 
 .jumbotron {
-    text-align: center;
-    color: #0083ba;
-    background-color: #ffffff;
+    padding: 0px;
+    font-family: "Times New Roman", Times, Serif;
+    color: #ffffff;
+    margin-bottom: 0px;
 }
 
+.jumbotron-video {
+    z-index: -1;
+    position: static;
+    width: 100%;
+}
+
+.jumbotron-text {
+    padding: 5%;
+    top: 25%;
+    margin: auto;
+    text-align: inherit;
+    position: absolute;
+}
+
+.jumbotron-text h1 {
+    font-weight: bold;
+}
+
+#groups {
+    color: #ffffff;
+    background-color: #04284C;
+    padding: 15px;
+}
+
+#groups .col-sm-4 {
+    padding: 30px;
+}
+
+.group-icon {
+    font-size: 30px;
+}
+
+body .container-fluid h2 {
+    color: #04284C;
+}
+
+#acm_women {
+    padding: 10px;
+}
+
+
+.acm_women_icon {
+    font-size: 60px;
+}
+
+#footer {
+    padding-top: 20px;
+    background-color: #F0F8FF;
+}
+
+#members {
+    padding-top: 50px;
+}
