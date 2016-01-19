@@ -2,9 +2,12 @@
 The web site for ACM@UNO
 
 ## Setup
-- Download and install node.js [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-- Execute at command line `npm install` to grab dependencies.
+- Download and install Meteor
+- If you're running OSX or Linux, simply run `curl https://install.meteor.com | sh` in a terminal
+- If you're on a Windows machine, navigate to [https://www.meteor.com/install/](https://www.meteor.com/install/) and download the Windows installer
 
 ## To run site/web-server locally
-- Run `npm start`
-- Open browser and navigate to [http://localhost:1337/](http://localhost:1337/)
+- Navigate to the site directory
+- Run `meteor`
+- Meteor should automatically download any necessary packages
+- Once Meteor notifies you that the app has started, open a browser and navigate to [http://localhost:3000/](http://localhost:3000/)
