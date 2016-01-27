@@ -1,0 +1,1 @@
+/* Here is where you set user permissions for different database collections! */
