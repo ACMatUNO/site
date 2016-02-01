@@ -1,0 +1,14 @@
+<template name="acmwmain">
+	<button id="testbutton">Just a Test</button>
+	<div id="test"></div>
+
+	<!-- TODO: Put main page code here -->
+
+	<script>
+		var $testbutton = $("#testbutton");
+		$testbutton.click(function() {
+			var $test = $("#test");
+			$test.text("Hello!");
+		});
+	</script>
+</template>

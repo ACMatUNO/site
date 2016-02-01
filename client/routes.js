@@ -1,5 +1,5 @@
 Router.configure({
-	layoutTemplate: "main",
+	layoutTemplate: 'mainnav',
 	notFoundTemplate: 'notFound',
 	loadingTemplate: 'loading',
 	progressDelay: 200
@@ -15,4 +15,9 @@ Router.route('/members', {
 
 Router.route('/events', {
 	template: 'events'
+});
+
+Router.route('/acmw', {
+	layoutTemplate: 'acmwnav',
+	template: 'acmwmain'
 });
