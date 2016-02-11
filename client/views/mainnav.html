@@ -1,0 +1,29 @@
+<template name="mainnav">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid" id="navigation">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="../"><img src="/img/unoiconsmall.png" /></a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/acmw">ACMW</a></li>
+          <li><a href="/events">Events <span class="glyphicon glyphicon-calendar"></span></a></li>
+          <li><a href="/members">Current Members <span class="glyphicon glyphicon-user"></span></a></li>
+          <li><a href="/login">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
+        </ul>
+    </div>
+  </nav>
+  {{ >yield }}
+  <div class="container-fluid text-center" id="footer">
+    <div class="row">
+      <div class="col-sm-4">
+        <p>2000 Lakeshore Drive New Orleans, LA 70148</p>
+      </div>
+      <div class="col-sm-4">
+        <p>acm@cs.uno.edu</p>
+      </div>
+      <div class="col-sm-4">
+        <p>&copy; Copyright ACM UNO 2015</p>
+      </div>
+    </div>
+  </div>
+</template>
