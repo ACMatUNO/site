@@ -11,5 +11,3 @@ The web site for ACM@UNO
 - Run `meteor`
 - Meteor should automatically download any necessary packages
 - Once Meteor notifies you that the app has started, open a browser and navigate to [http://localhost:3000/](http://localhost:3000/)
-
-## Blah blah
