@@ -4,12 +4,14 @@
         <div class="navbar-header">
           <a class="navbar-brand" href="../"><img src="/img/unoiconsmall.png" /></a>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/acmw">ACMW</a></li>
-          <li><a href="/events">Events <span class="glyphicon glyphicon-calendar"></span></a></li>
-          <li><a href="/members">Current Members <span class="glyphicon glyphicon-user"></span></a></li>
-          <li><a href="/login">Login <span class="glyphicon glyphicon-log-in"></span></a></li>
-        </ul>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+              {{> loginButtons}} <!-- here -->
+              <li><a href="/acmw">ACMW</a></li>
+              <li><a href="/blog">Events <span class="glyphicon glyphicon-calendar"></span></a></li>
+              <li><a href="/members">Current Members <span class="glyphicon glyphicon-user"></span></a></li>
+          </ul>
+        </div>
     </div>
   </nav>
   {{ >yield }}
