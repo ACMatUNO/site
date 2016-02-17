@@ -1,0 +1,31 @@
+<template name="loginpage">
+  <div id="content"></div>
+  <div class="content-fluid text-center" id="loginpage">
+    <h1>Welcome to ACM@UNO</h1>
+    <p>
+      {{#if currentUser}}
+	        <p>You're logged in.</p>
+	  {{else}}
+	        {{> register}}
+	        {{> login}}
+	   {{/if}}
+    </p>
+    <h2>Coming soon!</h2>
+  </div>
+</template>
+
+<template name="register">
+    <form>
+        <input type="email" name="registerEmail">
+        <input type="password" name="registerPassword">
+        <input type="submit" value="Register">
+    </form>
+  </template>
+
+<template name="login">
+    <form>
+        <input type="email" name="loginEmail">
+        <input type="password" name="loginPassword">
+        <input type="submit" value="Login">
+    </form>
+</template>

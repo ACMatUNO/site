@@ -21,3 +21,7 @@ Router.route('/acmw', {
 	layoutTemplate: 'acmwnav',
 	template: 'acmwmain'
 });
+
+Router.route('/loginpage', {
+	template: 'loginpage'
+});
