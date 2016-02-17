@@ -27,4 +27,5 @@ build/Release
 node_modules
 
 # OS Files
-.DS_STORE
+.DS_Store
+.DS_Store?
