@@ -19,4 +19,11 @@ if (Meteor.isClient) {
 	        Meteor.loginWithPassword(emailVar, passwordVar);
 	    }
 	});
+
+    Template.dashboard.events({
+        'click .logout': function(event){
+            event.preventDefault();
+            Meteor.logout();
+        }
+    });
 }

@@ -1,16 +1,22 @@
 <template name="loginpage">
-  <div id="content"></div>
-  <div class="content-fluid text-center" id="loginpage">
-    <h1>Welcome to ACM@UNO</h1>
-    <p>
-      {{#if currentUser}}
-	        <p>You're logged in.</p>
-	  {{else}}
-	        {{> register}}
-	        {{> login}}
-	   {{/if}}
-    </p>
-    <h2>Coming soon!</h2>
+  <div id="content">
+    <div class="content-fluid text-center" id="loginpage">
+      <h1>Welcome to ACM@UNO</h1>
+      <p>
+        {{#if currentUser}}
+  	        {{> dashboard}}
+  	  {{else}}
+        <div class="container-fluid">
+  	        {{> register}}
+
+  	        {{> login}}
+
+
+        </div>
+  	   {{/if}}
+      </p>
+      <h2>Coming soon!</h2>
+    </div>
   </div>
 </template>
 
@@ -28,4 +34,10 @@
         <input type="password" name="loginPassword">
         <input type="submit" value="Login">
     </form>
+</template>
+
+<template name="dashboard">
+    <p>You're logged in.</p>
+    
+    <p><a href="#" class="logout">Logout</a></p>
 </template>
