@@ -13,6 +13,10 @@ Router.route('/members', {
 	template: 'members'
 });
 
+Router.route('/intern', {
+	template: 'intern'
+});
+
 Router.route('/events', {
 	template: 'events'
 });
