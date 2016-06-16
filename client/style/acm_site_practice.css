@@ -105,3 +105,8 @@ body .container-fluid h2 {
 #blog {
     padding-top: 50px;
 }
+
+#about {
+    text-align: left!important;
+    padding-left: 50px;
+}
