@@ -29,3 +29,7 @@ Router.route('/loginpage', {
 Router.route('/about', {
 	template: 'about'
 });
+
+Router.route('/calendar', {
+	template: 'calendar'
+});
