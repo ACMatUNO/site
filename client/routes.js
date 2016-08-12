@@ -27,9 +27,13 @@ Router.route('/loginpage', {
 });
 
 Router.route('/about', {
-	template: 'about'
+    template: 'about'
 });
 
-Router.route('/calendar', {
-	template: 'calendar'
+Router.route('/contact', {
+    template: 'contact'
+});
+
+Router.route('/spgrp', {
+	template: 'spgrp' 
 });

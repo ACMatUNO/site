@@ -106,7 +106,33 @@ body .container-fluid h2 {
     padding-top: 50px;
 }
 
-#about {
-    text-align: left!important;
-    padding-left: 50px;
+h3 {
+	font-family: Vedana;
+	color:#000eee;
+}
+
+.contactImage {
+    padding: 50px 50px;
+}
+
+div p ins:hover{
+	text-decoration:none;
+	color:#cc00cc;
+}
+
+/*Special interest groups*/
+.grps {
+	font-size: 25px;
+	color: #000044;	
+	padding: 18px 0 0 0;
+}
+
+.grdes {
+	font-size: 16px;
+}
+
+/*contact page*/
+.picRight {
+	float: right;
+	margin: 2px 0 2px 20px;	
 }
