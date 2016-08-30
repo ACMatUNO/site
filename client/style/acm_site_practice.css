@@ -115,7 +115,7 @@ h3 {
     padding: 50px 50px;
 }
 
-div p ins:hover{
+ins:hover{
 	text-decoration:none;
 	color:#cc00cc;
 }
