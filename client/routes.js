@@ -30,10 +30,19 @@ Router.route('/about', {
     template: 'about'
 });
 
+<<<<<<< HEAD
 Router.route('/contact', {
     template: 'contact'
 });
 
 Router.route('/spgrp', {
 	template: 'spgrp' 
+=======
+Router.route('/calendar', {
+	template: 'calendar'
+});
+
+Router.route('/spgrp', {
+	template: 'spgrp'
+>>>>>>> master
 });

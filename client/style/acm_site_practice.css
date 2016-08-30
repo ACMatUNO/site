@@ -106,6 +106,14 @@ body .container-fluid h2 {
     padding-top: 50px;
 }
 
+<<<<<<< HEAD
+=======
+#about {
+    text-align: left!important;
+    padding-left: 50px;
+}
+
+>>>>>>> master
 h3 {
 	font-family: Vedana;
 	color:#000eee;
@@ -123,7 +131,11 @@ div p ins:hover{
 /*Special interest groups*/
 .grps {
 	font-size: 25px;
+<<<<<<< HEAD
 	color: #000044;	
+=======
+	color: #000044;
+>>>>>>> master
 	padding: 18px 0 0 0;
 }
 
@@ -134,5 +146,9 @@ div p ins:hover{
 /*contact page*/
 .picRight {
 	float: right;
+<<<<<<< HEAD
 	margin: 2px 0 2px 20px;	
+=======
+	margin: 2px 0 2px 20px;
+>>>>>>> master
 }
