@@ -37,3 +37,7 @@ Router.route('/calendar', {
 Router.route('/spgrp', {
 	template: 'spgrp'
 });
+
+Router.route('/contact', {
+	template: 'contact'
+});
