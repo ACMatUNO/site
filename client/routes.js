@@ -41,3 +41,7 @@ Router.route('/spgrp', {
 Router.route('/contact', {
 	template: 'contact'
 });
+
+Router.route('/test', {
+	template: 'test'
+});

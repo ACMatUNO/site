@@ -1,0 +1,20 @@
+<template name="test">
+  <div id="test">
+    <br/>
+    <br/>
+    <h1>Test</h1>
+    <br/>
+    <p>Something..</p>
+    <p>{{greeting}}</p>
+    {{{greeting2}}}
+    {{>array}}
+  </div>
+</template>
+
+<template name="array">
+  <ul>
+    {{#each arr}}
+      <li>{{this.content}} - <a href="{{this.url}}">{{this.username}}</a> - {{this.timestamp}}</li>
+    {{/each}}
+  </ul>
+</template>
